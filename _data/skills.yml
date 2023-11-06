@@ -1,0 +1,33 @@
+languages:
+  - item: Python
+  - item: SQL
+  - item: C++
+
+machine learning:
+  - item: Tabular Data
+  - item: Time-Series
+  - item: Natural Language Processing
+  - item: Graph Machine Learning
+  - item: Computer Vision
+
+frameworks:
+  - item: PyTorch
+  - item: TensorFlow
+  - item: PyG
+  - item: transformers
+  - item: NumPy
+  - item: Pandas
+  - item: Sklearn
+  - item: Matplotlib
+
+cloud:
+  - item: GCP
+  - item: SLURM
+
+tools:
+  - item: Git
+  - item: Databricks
+  - item: Linux
+  - item: WandB
+  - item: Bash
+  - item: LaTex

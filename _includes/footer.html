@@ -1,0 +1,13 @@
+<footer class="footer">
+  <div class="footer__copyright">
+    Copyright © 2023 Oleksii Tsepa. Credits for the website template go to Brittany Chiang. Images generated with Adobe Firefly 2.0.
+  </div>
+  <div class="footer__links">
+    {% for link in site.social %}
+    <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+      <span class="text">{{link.title}}</span>
+      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
+    </a>
+    {% endfor %}
+  </div>
+</footer>

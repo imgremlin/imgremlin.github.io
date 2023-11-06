@@ -1,0 +1,50 @@
+- name: Toronto Health Datathon 2023
+  description:
+    The solution aimed to simplify diagnostic workflow by pruning the number of assessments performed in the general internal medicine ward. 
+    We use past known lab test results to predict whether the patient deteriorated or was discharged.
+    As a result, we could decrease the amount of additional tests by an average of 3% while retaining the same outcome.<br>
+          [<a href="https://datathon.healthdatanexus.ai/"><u>datathon</u></a>,
+          <a href="https://docs.google.com/presentation/d/13pm_IdnSEsQ2ZcAJuGIdXw4ueR7jQEkvIsCT14mg8lg/edit?usp=sharing"><u>presentation</u></a>]
+  used:
+    - thing: uplift
+
+- name: INT20H 2022 Hackathon
+  description:
+    We had to build a model to predict the segment of churn drivers, i.e., drivers who will stop using the service.
+    [<a href="https://www.kaggle.com/mrmorj/gornyaki-solution"><u>solution</u></a>]<br>
+    <b>🏆 Won 1st place in the competition 🏆</b>
+  used:
+    - thing: Optuna
+    - thing: LightGBM
+    - thing: CatBoost
+
+- name: INT20H 2021 Hackathon
+  description:
+    The task was to predict the book's rating on the GoodReads service. Our multimodal pipeline consisted of scrapping external text data about authors, incorporating trainable images, and feature generation. The LightGBM model was evaluated based on 5-fold stratified cross-validation. The model was deployed to the web service with Streamlit and Heroku.<br>
+    <a class="small">🏆 Won 1st place in the competition 🏆</a>
+  used:
+    - thing: Streamlit
+    - thing: Heroku
+
+- name: National Bank of Ukraine IT Challenge
+  code: https://github.com/imgremlin/NBU-IT-CHALLENGE/blob/main/README.md
+  description:
+    Led a team of 3 Data Scientists to create a USD/UAH exchange rate forecasting platform.
+    We applied a time-series autoregressive approach consisting of feature generation (rolling statistics with different window sizes),
+    backward feature selection, handling with nonstationarity by differentiating the target, and pseudo-labeling for a long-term forecast.<br>
+    [<a href="https://github.com/imgremlin/NBU-IT-CHALLENGE/blob/main/README.md"><u>solution</u></a>]<br>
+    <a class="small">🏆 Won 2nd place in the competition 🏆</a>
+  used:
+    - thing: time-series
+    - thing: feature-engineering
+
+- name: Teaching Assistant at the University of Toronto
+  description: Supported the lectures on  “Intro to Computer Programming” for 100+ students by answering ongoing questions. Conducted 1-1 office hours by clarifying misunderstandings in lecture materials and home assignments.
+  used:
+    - thing: teaching
+    - thing: Python
+
+- name: Admission Board Member at the UofT Summer Program for Ukrainians
+  description: Screened and interviewed candidates for the University of Toronto Summer Program for Students from Ukraine. During the process, 60+ resumes and motivation letters were reviewed, and were conducted 5 interviews to asses candidates experience, technical strength, and research potential. I also provided candidates with information about the program and answered any ongoing questions. After admission, I supported successful candidates in relocating and adapting to the new environment. [<a href="https://web.cs.toronto.edu/summer-program-for-students-from-ukraine"><u>program</u></a>]
+  used:
+    - thing: hiring

@@ -1,0 +1,78 @@
+<section class="section featured-projects">
+  <div class="section__title">Featured Projects</div>
+  <div class="section__content">
+
+    <div class="project screentime">
+      <figure class="project__pic phones">
+        <div class="phone">
+          <img src="{{site.baseurl}}/img/featured/product_matching.jpg" alt="">
+        </div>
+      </figure>
+      <figcaption class="project__caption">
+        <div class="project__name">
+          <a target="_blank">Product Matching</a>
+        </div>
+        <p>Led the development of the Product Matching Recommender System to reduce the cost of manual matching by more than 40%.
+          We aimed to automate the manual matching of the same products on different websites.
+          The RecSys consisted of the retrieval stage - tf-idf to find the top-K closest products to the target product,and the ranker stage - RoBERTa to rank those top-K products.
+          Finally, the model reached a precision of 95% and recall of 70%.</p>
+      </figcaption>
+    </div>
+
+    <div class="project screentime">
+      <figure class="project__pic phones">
+        <div class="phone">
+          <img src="{{site.baseurl}}/img/featured/mass_spec.jpg" alt="">
+        </div>
+      </figure>
+      <figcaption class="project__caption">
+        <div class="project__name">
+          <a target="_blank">Conditional Molecule Generation based on the Mass Spectrum</a>
+        </div>
+        <p>Developed a model for de-novo molecule generation conditioned on mass spectra using transformers.
+          Further, the model was finetuned with RL methods based on the feedback from the mass-spectrum predictor (reward model), including PPO, and a fully differentiable approach.</p>
+      </figcaption>
+    </div>
+
+    <div class="project screentime">
+      <figure class="project__pic phones">
+        <div class="phone">
+          <img src="{{site.baseurl}}/img/featured/congfu.jpg" alt="">
+        </div>
+      </figure>
+      <figcaption class="project__caption">
+        <div class="project__name">
+          <a target="_blank">CongFu</a>
+        </div>
+        <p>Drug synergy, characterized by the amplified combined effect of multiple drugs, presents a critical phenomenon for optimizing therapeutic outcomes.
+          We introduced a novel Conditional Graph Fusion Layer (CongFu) designed for drug synergy predictions.
+          CongFu outperformed state-of-the-art methods on 11 out of 12 benchmark datasets.
+          By addressing the challenge of predicting drug synergy in untested drug pairs, CongFu opens new avenues for optimizing drug combinations and advancing personalized medicine.<br>
+          [<a href="https://arxiv.org/abs/2305.14517"><u>paper</u></a>,
+          <a href="https://github.com/bowang-lab/CongFu"><u>code</u></a>]</p>
+      </figcaption>
+    </div>
+
+    <div class="project screentime">
+      <figure class="project__pic phones">
+        <div class="phone">
+          <img src="{{site.baseurl}}/img/featured/kifnet.jpg" alt="">
+        </div>
+      </figure>
+      <figcaption class="project__caption">
+        <div class="project__name">
+          <a target="_blank">KIFNet</a>
+        </div>
+        <p>We develop a model for continuous prediction of leg kinematics.
+          To do this, we use computer vision data, as it can provide a great context about the subject surroundings and unstructured events,
+          along with the locomotion data to inform our system about the current state of the subject and their movement dynamics.
+          We improved state-of-the-art bionic leg control accuracy (RMSE) by 20% while achieving 20x faster inference by designing novel model multimodal architecture.
+          Further, the model was deployed on Jetson Nano and, with inference optimization, achieved 125 fps.<br>
+          [<a href="https://www.biorxiv.org/content/10.1101/2023.02.10.528052v1"><u>paper</u></a>,
+          <a href="https://github.com/Anvilondre/kifnet"><u>code</u></a>]</p>
+      </figcaption>
+    </div>
+
+
+  </div>
+</section>

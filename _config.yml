@@ -1,0 +1,39 @@
+# Site settings
+name: Oleksii Tsepa
+title: Oleksii Tsepa | Machine Learning Engineer
+description: Machine Learning Engineer with 3 years of experience in various domains, including Retail, Drug Discovery, Robotics, etc
+url: https://imgremlin.github.io/
+baseurl: ''
+email: alextsepa001@gmail.com
+cover: https://imgremlin.github.io/img/og.png
+logo: https://imgremlin.github.io/img/emojis/ai.png
+resume: https://imgremlin.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:alextsepa001@gmail.com
+  - title: github
+    url: https://github.com/imgremlin
+  - title: linkedin
+    url: https://www.linkedin.com/in/oleksii-tsepa/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
