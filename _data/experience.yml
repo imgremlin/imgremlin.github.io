@@ -2,8 +2,20 @@
   url: https://competera.net/
   time: October 2020 - Present
   position: Machine Learning Engineer
+  details:
+    - task: Developed the company’s technical differentiator by creating <b>Product Embeddings</b> with <b>Graph Neural Networks</b> for better price elasticity estimation
+    - task: Developed a <b>Product Matching</b> system with a precision of 95% and recall of 70%, which reduced the cost of manual matching by more than 40%
+    - task: Improved existing <b>Time-Series Model</b> accuracy by 7% for sales forecasting of more than 50k retail products and <b>deployed</b> in 130 retail outlets across over 25 cities in Ukraine
+    - task: Designed <b>A/B tests</b> that detect a 3% revenue increase from price optimization in a company with +100M ARR
+    - task: <b>Collaborated</b> with stakeholders to define a product roadmap, ensuring alignment with business objectives
+    - task: Carried out <b>Recruitment Process</b>":" screened 70+ resumes, evaluated 15+ test tasks, conducted 10+ tech interview
 
 - company: Vector Institute
   url: https://vectorinstitute.ai/
   time: May 2022 - December 2023
   position: Machine Learning Research Engineer
+  details:
+    - task: Improved state-of-the-art bionic leg control accuracy (RMSE) by 20% while achieving 20x faster inference by designing novel <b>multimodal</b> architecture. Further, the model was <b>deployed</b> on Jetson Nano
+    - task: Introduced a novel Conditional Graph Fusion Layer (CongFu) designed for drug synergy predictions. CongFu outperformed state-of-the-art methods on 11 out of 12 benchmark datasets
+    - task: Improved the relative distance similarity between original and latent (2D) spaces by 10% through developing a Topology-preserving Graph Autoencoder
+    - task: Developed a model for de-novo molecule <b>generation</b> conditioned on mass spectra using <b>transformers</b> with <b>Reward Modelling</b> based on RL and differentiable approaches. Used <b>DeepSpeed</b> for distributed training.

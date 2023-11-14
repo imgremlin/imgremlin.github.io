@@ -1,23 +1,25 @@
 languages:
   - item: Python
   - item: SQL
+  - item: Spark
   - item: C++
 
 machine learning:
-  - item: Tabular Data
+  - item: NLP
+  - item: RecSys
   - item: Time-Series
-  - item: Natural Language Processing
-  - item: Graph Machine Learning
+  - item: Graph ML
   - item: Computer Vision
+  - item: A/B testing
 
 frameworks:
   - item: PyTorch
   - item: TensorFlow
-  - item: PyG
   - item: transformers
-  - item: NumPy
-  - item: Pandas
+  - item: DeepSpeed
   - item: Sklearn
+  - item: LightGBM
+  - item: Pandas
   - item: Matplotlib
 
 cloud:
@@ -26,6 +28,7 @@ cloud:
 
 tools:
   - item: Git
+  - item: Docker
   - item: Databricks
   - item: Linux
   - item: WandB

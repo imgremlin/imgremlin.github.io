@@ -21,6 +21,19 @@
         font-size: 0.8rem;
       }
     }
+    &__details {
+      font-family: 'Inconsolata', monospace;
+      // @include mobile {
+        // font-size: 0.8rem;
+      // }
+      &__item {
+        // margin: 30px 0;
+        line-height: 17px; // between the lines
+        margin-top: 10px; // between the items
+        padding-right: 10px;
+        font-size: 0.9rem;
+      }
+    }
   }
   .arrow-link {
     font-size: 1.25rem;
